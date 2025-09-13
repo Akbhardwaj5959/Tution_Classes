@@ -11,7 +11,7 @@ export default function WhatsappFloat() {
       aria-label="Chat on WhatsApp"
     >
       <Image
-        src="/Whatsapp.webp"
+        src="/whatsapp.webp"
         alt="WhatsApp"
         width={48}
         height={48}
