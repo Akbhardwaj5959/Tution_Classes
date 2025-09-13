@@ -1,0 +1,18 @@
+
+[
+  { "name": "Mathematics", "icon": "🧮" },
+  { "name": "Biology", "icon": "🔬" },
+  { "name": "Economics", "icon": "📊" },
+  { "name": "History", "icon": "📜" },
+  { "name": "Science", "icon": "🧬" },
+  { "name": "Physics", "icon": "📡" },
+  { "name": "Business Studies", "icon": "💼" },
+  { "name": "Political Science", "icon": "⚖️" },
+  { "name": "Hindi", "icon": "📝" },
+  { "name": "English", "icon": "🔤" },
+  { "name": "Chemistry", "icon": "⚗️" },
+  { "name": "Coding", "icon": "</>" },
+  { "name": "Computer Science", "icon": "💻" },
+  { "name": "Accounts", "icon": "📒" },
+  { "name": "Geography", "icon": "🌍" }
+]

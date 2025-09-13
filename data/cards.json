@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Class 10-12 Tuition",
+    "description": "Class 10-12 ke students ke liye tuition services.",
+    "image": "/classroom.jpg",
+    "price": "Rs.1000",
+    "buttonText": "Read More"
+  },
+  {
+    "title": "Graduation Tuition",
+    "description": "Graduation ke students ke liye tuition services.",
+    "image": "/classroom1.jpg",
+    "price": "Rs.2000",
+    "buttonText": "Read More"
+  },
+  {
+    "title": "Masters Tuition",
+    "description": "Masters ke students ke liye tuition services.",
+    "image": "/classroom3.jpg",
+    "price": "Rs.3000",
+    "buttonText": "Read More"
+  }
+  
+]

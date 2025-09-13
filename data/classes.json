@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Online Tuition",
+    "description": "Our online tuition services provide students with the opportunity to learn from qualified tutors from anywhere in the world. This is a great option for students who travel frequently or who live in remote areas.",
+    "image": "/student/1.jpg"
+  },
+  {
+    "title": "Small Group Tuition",
+    "description": "Our small group tuition services provide students with the opportunity to learn from a qualified tutor in a small group setting. This is a great option for students who want to benefit from the interaction with other students while still receiving personalized attention from the tutor with comparative less fee.",
+    "image": "/student/2.webp"
+  },
+  {
+    "title": "Home Tuition",
+    "description": "Our home tuition services allow students to receive one-on-one guidance directly at their home. This ensures personalized teaching tailored to the student's pace and learning style.",
+    "image": "/student/3.jpg"
+  },
+  {
+    "title": "Exam Preparation",
+    "description": "We provide focused exam preparation classes that help students revise and strengthen their knowledge. Special crash courses and test series are also offered for last-minute preparation.",
+    "image": "/student/4.jpg"
+  }
+]
