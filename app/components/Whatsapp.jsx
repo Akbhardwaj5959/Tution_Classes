@@ -11,7 +11,7 @@ export default function WhatsappFloat() {
       aria-label="Chat on WhatsApp"
     >
       <Image
-        src="/whatsappicon.jpg"
+        src="/whatsapp.jpg"
         alt="WhatsApp"
         width={48}
         height={48}
