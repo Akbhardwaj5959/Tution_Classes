@@ -1,11 +1,11 @@
-import subjects from"@/data/subjects.json"; 
-import Link from "next/link";
 import Services from "../components/Services";
+import Link from "next/link";
+import subjects from"@/data/subjects.json"; 
 
 export default function Subjects() {
   return (
-    <div className="bg-white p-40">
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+    <div className="bg-white px-4 py-40 sm:px-8 md:px-16 lg:px-32">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6">
         {subjects.map((subject, idx) => (
           <div
             key={idx}

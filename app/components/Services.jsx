@@ -1,5 +1,5 @@
-import services from "@/data/classes.json";
 import Image from "next/image";
+import services from "@/data/classes.json";
 
 export default function Services() {
   return (
