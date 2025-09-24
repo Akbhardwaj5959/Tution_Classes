@@ -1,5 +1,6 @@
 
 import StudentSlider from "../components/StudentSlider";
+import StudentSliderAgain from "../components/StudentSliderAgain";
 
 export default function Home() {
   return (
@@ -57,8 +58,8 @@ export default function Home() {
         </div>
       </section>
 
-      
-      <StudentSlider />
+      <StudentSliderAgain />
+      {/* <StudentSlider /> */}
     </main>
   );
 }

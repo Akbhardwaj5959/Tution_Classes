@@ -7,6 +7,7 @@ import courseData from "@/data/cards.json";
 import VideoSlider from "./components/VideoSlider";
 import CountsDetails from "./components/CountsDetails";
 import Mentors from "./components/Mentors";
+import CardEffect from "./components/CardEffect";
 
 export default function Home() {
   return (
@@ -23,7 +24,19 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-10 bg-gray-100 min-h-screen">
+      <div className="grid grid-cols-1 md:grid-cols-3  p-10 bg-gray-100 min-h-screen">
+      {courseData.map((cards, index) => (
+        <CardEffect
+          key={index}
+          title={cards.title}
+          description={cards.description}
+          image={cards.image}
+          price={cards.price}
+          buttonText={cards.buttonText}
+        />
+      ))}
+    </div>
+      {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-10 bg-gray-100 min-h-screen">
       {courseData.map((cards, index) => (
         <ClassesDetails
           key={index}
@@ -34,7 +47,7 @@ export default function Home() {
           buttonText={cards.buttonText}
         />
       ))}
-    </div>
+    </div> */}
     <VideoSlider />
     <CountsDetails />
     <Mentors />
